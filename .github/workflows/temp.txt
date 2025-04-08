@@ -1,0 +1,61 @@
+
+>   generate-bridge:
+      uses: ./.github/workflows/bridge.yml
+  
+>   build-RustDeskTempTopMostWindow:
+      uses: ./.github/workflows/third-party-RustDeskTempTopMostWindow.yml
+      with:
+        upload-artifact: ${{ inputs.upload-artifact }}
+        target: windows-2022
+        configuration: Release
+>   build-for-windows-flutter:
+      name: ${{ matrix.job.target }}
+>     needs: [build-RustDeskTempTopMostWindow, generate-bridge]
+      runs-on: ${{ matrix.job.os }}
+      strategy:
+        fail-fast: false
+        matrix:
+          job:
+>     needs: [generate-bridge]
+      steps:
+        - name: Export GitHub Actions cache environment variables
+          uses: actions/github-script@v6
+          with:
+            script: |
+>     needs: [generate-bridge]
+      strategy:
+        fail-fast: false
+        matrix:
+          job:
+            - {
+>     needs: [generate-bridge]
+      strategy:
+        fail-fast: false
+      steps:
+        - name: Export GitHub Actions cache environment variables
+          uses: actions/github-script@v6
+>     needs: [generate-bridge]
+      strategy:
+        fail-fast: false
+        matrix:
+          job:
+            - {
+>       - build-for-windows-flutter
+      runs-on: ubuntu-latest
+      if: ${{ inputs.upload-artifact }}
+      steps:
+        - name: Download artifacts
+          uses: actions/download-artifact@master
+>     needs: [generate-bridge]
+      name: build rustdesk android apk ${{ matrix.job.target }}
+      runs-on: ${{ matrix.job.os }}
+      strategy:
+        fail-fast: false
+        matrix:
+>     needs: [generate-bridge]
+      name: build rustdesk linux ${{ matrix.job.target }}
+      runs-on: ${{ matrix.job.on }}
+      strategy:
+        fail-fast: false
+        matrix:
+
