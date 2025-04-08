@@ -944,7 +944,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "https://admin.rustdesk.com".to_owned()
+    format!("http://{}:{}", "111.46.161.134", config::RENDEZVOUS_PORT - 2).to_owned()
 }
 
 pub fn get_audit_server(api: String, custom: String, typ: String) -> String {
