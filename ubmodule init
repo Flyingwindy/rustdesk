@@ -1,0 +1,147 @@
+[33m1e59bce3a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Add Update Custom Configuration workflow
+[33m72c08c3a6[m[33m ([m[1;33mtag: [m[1;33mfdroid-version[m[33m, [m[1;33mtag: [m[1;33m1.3.9[m[33m)[m 修改API服务器地址为自定义服务器
+[33m013437700[m 完成合并
+[33m0f649ab8c[m feat: 移除除win64平台以外的CI构建配置
+[33m3fad42dcd[m[33m ([m[1;33mtag: [m[1;33mnightly[m[33m)[m flutter-build.yml
+[33md9a00cbbc[m .gitmodules
+[33md8eb23a57[m fix: msi, silent install, launch app tray (#11389)
+[33mcc0761446[m Update ptbr.rs (#11354)
+[33md972c0eda[m Update sc.rs (#11342)
+[33m2d403913b[m fix: enigo, macos, F11 (#11371)
+[33m62a83ad31[m fix: build (#11365)
+[33ma7aacc785[m refact: win, dlopen mf (#11353)
+[33m9ddeab9be[m fix: vcpkg, cmake, compatibility 3.5 (#11356)
+[33md808bb294[m Update Portuguese (Brazil) Translations (#11322)
+[33mc19f33a13[m Update tw.rs (#11325)
+[33m11d3ea5f2[m Update sc.rs (#11309)
+[33mca1b35440[m Update ru.rs (#11306)
+[33m3dbe27ea5[m Update lv.rs (#11298)
+[33ma2725df7c[m Update Arabic translation in ar.rs (#11281)
+[33mf32988b45[m Updated Persian translations in fa.rs (#11280)
+[33madf83a1b2[m Italian language update (#11278)
+[33mea74ed12b[m Update de.rs (#11269)
+[33m5f3b98037[m Update fr.rs (#11266)
+[33m23e70c0fd[m refact: remote printer, adapter dll, free data ptr (#11279)
+[33m4b14f8613[m refact: remote printer, log (#11271)
+[33mee2478168[m fix: remote printer (#11270)
+[33mf4bbf8236[m feat: remote printer (#11231)
+[33m1cb53c1f7[m Update lv.rs (#11250)
+[33meea9e0fa4[m Update README-DE.md (#11247)
+[33mac630c2ca[m Update README-ZH.md
+[33m9831f9343[m Update README.md
+[33mc074a1d6a[m Update fr.rs (#11184)
+[33m47c93f854[m Update sc.rs (#11176)
+[33mc06ac9341[m improve check_software_update
+[33m8d231b460[m Update nl.rs (#11172)
+[33m745ba1673[m Update nl.rs (#11155)
+[33m2ef1dd99d[m Update ru.rs (#11132)
+[33m960d9a042[m Update tw.rs (#11126)
+[33m10457dfe4[m Italian language update (#11123)
+[33m971d4e697[m ipc example for test (#11127)
+[33m2dbff4558[m Update de.rs (#11106)
+[33m2bdb62141[m Update es.rs (#11111)
+[33m47b00054d[m Update nl.rs (#11102)
+[33md1c8b331c[m Option `allow-d3d-render` and fix ios ci (#11107)
+[33m1403c939d[m fix: msi, silent install, do not launch app (#11115)
+[33mf1d2073d4[m revert back, because useless
+[33mf7c930e15[m fix https://github.com/rustdesk/rustdesk/discussions/11104
+[33m22005bac7[m Italian language update (#11088)
+[33m8f7bb5a03[m Update tw.rs (#11087)
+[33me0fd69810[m opt dropdown button of connection page (#11086)
+[33mb2cc9eac2[m set rgba_data.valid to false when open a new single display on the old session (#11078)
+[33m5f521c80a[m Create ta.rs (#11068)
+[33mf0f999dc2[m view camera (#11040)
+[33mdf4a10131[m fix: build macos, default feature (#11075)
+[33mbdc53f019[m improve lock, https://github.com/rustdesk/rustdesk/issues/11067
+[33mcef417596[m Update et.rs (#11054)
+[33m4ff75412c[m Update sc.rs (#11046)
+[33mf1329ca69[m Git submodule: Bump libs/hbb_common from `7cf11f7` to `83419b6` (#11042)
+[33mc95aaf563[m fixed Dutch names for macOS permissions (#11020)
+[33m11fed81c4[m Update reference to flutter web UI (#11029)
+[33m561bc18f4[m Fix unused import with dxgiformat (#11032)
+[33m6946b863f[m Update ca.rs (#11024)
+[33m8f6886192[m Update CONTRIBUTING-KR.md (#11016)
+[33m171d178b0[m make errorText of DialogTextField selectable (#11013)
+[33m7305b6bd1[m https://github.com/rustdesk/rustdesk/discussions/937#discussioncomment-12373814 try to support citrix session
+[33m6600c8c64[m Update ru.rs (#10984)
+[33m32b77f896[m Update ru.rs (#10979)
+[33m0bda90f8f[m Update ru.rs (#10978)
+[33m2b68c46fd[m French localization rework (#10966)
+[33mbfbf00f18[m fix: custom client, settings button (#10974)
+[33me17ab7404[m Sardinian translation (#10941)
+[33m41cd375e3[m fix: potential memleak (#10955)
+[33m0d919157c[m Fix/win build (#10954)
+[33m00293a990[m Feat/macos clipboard file (#10939)
+[33mbc3a58f6f[m 1.3.9
+[33md8496aba0[m refactor is_custom_client
+[33m280c12942[m improve android build
+[33m3a5b30a5e[m Update pl.rs (#10901)
+[33mc46023bbd[m Git submodule: Bump libs/hbb_common from `16900b9` to `7cf11f7` (#10895)
+[33m93feedc21[m Update lv.rs (#10883)
+[33m6f1a76974[m fix: source typo in flutter/lib/common/widgets/address_book.dart (#10884)
+[33me191d11f7[m before docker run command added git submoulde update command in docker build Updated README.md (#10878)
+[33mfc396d216[m fix: check text editing controlling, if selection is valid (#10868)
+[33m2575e1481[m Update el.rs (#10866)
+[33m0b9a6a280[m fix: remote id, update text and reserve selection (#10867)
+[33m343f12b38[m fix: load local peers, called two times on select tab (#10859)
+[33mce1e4863c[m fix: load peers, always push event data (#10856)
+[33mf631c1c28[m refact: Remote ID editor, only select text on focus (#10854)
+[33m8b9a7a350[m refact: optimize, ID search peers (#10853)
+[33m055b35116[m refact: optimize, loading recent peers (#10847)
+[33m2e89a3321[m fix: android, back function (#10843)
+[33m965cc6af2[m Update nl.rs (#10834)
+[33m16e191f91[m fix de
+[33m1d1e79c80[m revert, peers card, sort by online status (#10829)
+[33m9ffe516f5[m Update de.rs (#10827)
+[33mac20d2fb5[m Update ru.rs (#10794)
+[33m221715221[m Italian language update (#10796)
+[33mee288280b[m Update tw.rs (#10799)
+[33mcccdb2f28[m Update hu.rs (#10804)
+[33m1ddab27c0[m NL lang further improvements (#10813)
+[33m451b6dc65[m Update nl.rs (#10812)
+[33m86b327ee4[m they always forget to remove :21114 for https, so I remove for them
+[33m6e305d486[m improve sysinfo update
+[33m77af6c4ce[m clear selected device group or user when search text changes (#10815)
+[33mfa49c7283[m fix, accessible peers filter considering device group name (#10809)
+[33mc150143d8[m device_group_name in devices.py
+[33m023d46b48[m refact: android, handle right click (#10806)
+[33m356adbcd8[m more about allow -
+[33m33b47dd6e[m allow dash in id
+[33ma548e9c94[m fix: android, controlled side, gesture (#10792)
+[33mcefda0dec[m device group (#10781)
+[33m8f545491a[m verify_login, but not eable yet
+[33m263bbfc66[m missed clear
+[33ma039741e5[m fix: win10, border (#10753)
+[33m2a0e8c109[m fix: macos, main window, dark theme, border (#10749)
+[33m9614bf266[m update READEME
+[33maa63ebc7e[m Misuse Disclaimer
+[33mfbba8f0b3[m refact: file copy&paste, cross platform (no macOS)  (#10671)
+[33ma27fa4308[m Update NL translation: spelling, capitalization, missing entries (#10661)
+[33m7a5941de9[m remove devcontainer since not maintained yet
+[33mdb3ca6a37[m remove useless code
+[33mce5f0d513[m 2024 -> 2025
+[33m05b0f95b7[m restore entrypoint.sh
+[33m8b24b195a[m remove useless files
+[33m5fc8e8c42[m remove PUBLIC_RS_PUB_KE
+[33m25f917a7b[m misused by bad guys (#10614)
+[33m55005f812[m fix: win, file clipboard, try empty (#10609)
+[33mf08cb0412[m fix: windows, dll, pre-loading attack (#10608)
+[33mfc2e27bcf[m Create dependabot.yml (#10593)
+[33m7aa459266[m Update and fixes el.rs (#10600)
+[33md656ae295[m Update he.rs (#10594)
+[33me4f00361f[m Update README.md (#10587)
+[33m1b49d49df[m Update README.md (#10586)
+[33m80f759c1e[m norwegian translation (#10579)
+[33mda80f3352[m fix vaapi create 2 times at first (#10576)
+[33mec3ba5be8[m Fix issues spotted during 1.3.7 fdroid build (#10570)
+[33md04756ad7[m replace self-hosted arm64 linux with ubuntu-22.04-arm (#10555)
+[33m0eba939cd[m fix windows crash (#10562)
+[33m1f02bc9d3[m bump to 1.3.7 (#10548)
+[33m5fa8c25e6[m opt qos (#10459)
+[33mc44803f5b[m replace hbb_common with submodule (#10543)
+[33m4b066b1fb[m fix(debian): makes postinst/prerm scripts idempotent (#10541)
+[33mdd004f1a2[m fix: clipboard, client side, update is required on conn (#10464)
+[33m222dbf12c[m fix: mobile, don't reset canvas on metrics changed (#10463)
+[33mb5d54debc[m Fix a translation error (#10500)
+[33m08cdf7134[m Update es.rs (#10468)
+[33mbe5037bd0[m fix: [translations] Add the translation
